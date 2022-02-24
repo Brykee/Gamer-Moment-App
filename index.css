@@ -1,0 +1,49 @@
+html {
+  background: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(0, 0, 255))
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background-position: center;
+  background-image: url('Epic\ Gamer\ Moment.jpg');
+  background-size: 350px;
+}
+
+#delete-btn {
+  height: 50px;
+  color: white;
+  background-color: black;
+}
